@@ -9,3 +9,8 @@ body,
     background-color: black;
     color-scheme: dark;
 }
+
+input,
+select {
+    font-size: 100%;
+}
