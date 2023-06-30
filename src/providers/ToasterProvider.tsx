@@ -10,6 +10,7 @@ const ToasterProvider = () => {
                     background: "#333",
                     color: "#fff",
                 },
+                duration: 2500,
             }}
         />
     );
