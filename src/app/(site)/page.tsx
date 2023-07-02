@@ -1,4 +1,4 @@
-import PageContent from "@/components/PageContent";
+import PageContent from "@/app/(site)/components/PageContent";
 import ListItem from "@/components/ListItem";
 import Header from "@/components/Header";
 import getSongs from "@/actions/getSongs";
