@@ -23,11 +23,6 @@ export default async function Home() {
                     <h1 className="text-white text-2xl font-bold">Newest songs</h1>
                 </div>
                 <div>
-                    {/* {songs.map((song) => (
-                        <div className="capitalize" key={song.id}>
-                            {song.title}
-                        </div>
-                    ))} */}
                     <PageContent songs={songs} />
                 </div>
             </div>
