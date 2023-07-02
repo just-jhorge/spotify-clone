@@ -26,6 +26,7 @@ const Slider: React.FC<SliderProps> = ({ value = 1, onChange }) => {
             <RadixSlider.Track className="bg-neutral-600 relative grow rounded-full h-[3px]">
                 <RadixSlider.Range className="absolute bg-white rounded-full h-full" />
             </RadixSlider.Track>
+            <RadixSlider.Thumb className="block w-3 h-3 bg-white shadow-md rounded-full hover:bg-neutral-300 transition" />
         </RadixSlider.Root>
     );
 };
