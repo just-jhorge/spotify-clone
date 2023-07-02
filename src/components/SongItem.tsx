@@ -21,7 +21,13 @@ const SongItem: React.FC<SongItemProps> = ({ data, onClick }) => {
             onClick={() => onClick(data.id)}
         >
             <div className="relative aspect-square w-full h-full rounded-md overflow-hidden">
-                <Image className="object-cover" src={imagePath || "/images/liked.png"} fill alt="Image" />
+                <Image
+                    className="object-cover"
+                    src={imagePath || "/images/liked.png"}
+                    fill
+                    alt="Image"
+                    loading="lazy"
+                />
             </div>
             <div className="flex flex-col items-start w-full py-2.5 gap-y-1">
                 <p className="truncate w-full capitalize text-lg">{data.title}</p>
