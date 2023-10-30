@@ -82,19 +82,15 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
                         </div>
                     ) : (
                         <>
-                            <div>
-                                <Button
-                                    onClick={authModal.onOpen}
-                                    className="bg-transparent rounded-full text-neutral-300 font-medium"
-                                >
-                                    Sign up
-                                </Button>
-                            </div>
-                            <div>
-                                <Button onClick={authModal.onOpen} className="bg-white rounded-full px-6 py-2">
-                                    Log in
-                                </Button>
-                            </div>
+                            <Button
+                                onClick={authModal.onOpen}
+                                className="bg-transparent rounded-full text-neutral-300 font-medium"
+                            >
+                                Sign up
+                            </Button>
+                            <Button onClick={authModal.onOpen} className="bg-white rounded-full px-6 py-2">
+                                Log in
+                            </Button>
                         </>
                     )}
                 </div>

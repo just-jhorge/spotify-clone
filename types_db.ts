@@ -31,6 +31,7 @@ export interface Database {
           }
         ]
       }
+
       liked_songs: {
         Row: {
           created_at: string | null
@@ -62,6 +63,7 @@ export interface Database {
           }
         ]
       }
+
       prices: {
         Row: {
           active: boolean | null
@@ -111,6 +113,7 @@ export interface Database {
           }
         ]
       }
+      
       products: {
         Row: {
           active: boolean | null
